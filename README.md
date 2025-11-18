@@ -79,7 +79,7 @@ onCmd Stop, args => {
 	accept Start
 }
 
-onAudio Stream, v => {
+onVoice Stream, v => {
 	# save v.Data
 }
 ```
