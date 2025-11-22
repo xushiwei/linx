@@ -27,12 +27,16 @@ onCmd Type, args => {   # tool definition
 
 onVoice Text, v => {  # v.Data is converted to text
 	# type(v) is VoiceInfo[Text]
-	echo v.Who, v.Data, v.Language # v.Who say sth. in v.Language
+	echo v.Who, v.Data, v.Language  # v.Who say sth. in v.Language
 	...
 }
 
 onVoice Stream, v => {  # v.Data is a stream, in signle/multiple channels
 	# type(v) is VoiceInfo[Stream]
+	...
+}
+
+onTimer ev => {  # setTimer triggerOnBkgnd
 	...
 }
 
