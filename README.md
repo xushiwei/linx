@@ -12,9 +12,9 @@ onInstall => {  # when install this app
 	# should return initial state of this app
 }
 
-onStart => {  # when program start
-	...
-}
+# onStart => {  # when program start
+#	...
+# }
 
 onState => {  # query app state
 	...
